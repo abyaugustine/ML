@@ -1,0 +1,10 @@
+# ML
+def Remove(arr):
+    final = []  
+    for num in arr:
+      if num not in final:
+            final.append(num)
+    return final
+arr= [12,24,35,24,88,120,155,88,120,155]
+
+print(Remove(arr))
