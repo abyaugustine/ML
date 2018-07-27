@@ -7,4 +7,4 @@ def Remove(arr):
     return final
 arr= [12,24,35,24,88,120,155,88,120,155]
 
-print(Remove(arr))
+print(Remove(arr[::-1]))
